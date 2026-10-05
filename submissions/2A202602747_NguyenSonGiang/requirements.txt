@@ -1,0 +1,20 @@
+# Môi trường của bài lab (Python 3.10, CUDA 12.4). Cài torch trước từ kênh cu124:
+#   pip install torch==2.6.0 torchvision==0.21.0 --index-url https://download.pytorch.org/whl/cu124
+#   pip install -r requirements.txt
+# Phiên bản trùng với môi trường đã dùng để chạy mọi thí nghiệm.
+timm==1.0.15
+huggingface_hub==0.36.2
+safetensors==0.7.0
+numpy==1.26.4
+pandas==2.3.3
+scikit-learn==1.7.2
+matplotlib==3.10.7
+pillow==12.1.1
+openpyxl==3.1.5
+# notebook (chạy lab_day2.ipynb bằng nbconvert)
+nbconvert==7.17.0
+ipykernel==7.2.0
+# điểm thưởng ONNX (onnx_bench.py)
+onnx==1.23.1
+onnxruntime-gpu==1.23.2
+onnxscript==0.7.2

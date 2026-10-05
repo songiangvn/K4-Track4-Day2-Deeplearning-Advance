@@ -1,0 +1,20 @@
+{
+  "ln9": 2.1972245773362196,
+  "initial_loss": {
+    "resnet50": 2.2307868003845215,
+    "resnext50_32x4d": 2.216501235961914,
+    "convnext_tiny.fb_in1k": 2.193570852279663,
+    "deit_small_patch16_224": 2.2134058475494385,
+    "swin_tiny_patch4_window7_224": 2.2401411533355713,
+    "efficientnet_b0": 2.242675542831421,
+    "mobilenetv3_large_100": 2.2563939094543457
+  },
+  "eval_batch_invariance_maxabs": 0.00013731792569160461,
+  "overfit": {
+    "n_images": 16,
+    "steps": 150,
+    "loss_first": 2.1957895755767822,
+    "loss_last": 7.756495324429125e-05,
+    "acc_eval_mode": 1.0
+  }
+}
